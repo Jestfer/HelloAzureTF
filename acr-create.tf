@@ -1,5 +1,5 @@
 resource "azurerm_container_registry" "acr" {
-  name                = "containerRegistry1"
+  name                = "group1containerRegistry"
   resource_group_name = "group1-tf"
   location            = "westeurope"
 }
