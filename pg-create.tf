@@ -1,5 +1,5 @@
 resource "azurerm_postgresql_server" "example" {
-  name                = "postgresql-server-1"
+  name                = "group1-postgresql-server"
   location            = "westeurope"
   resource_group_name = "group1-tf"
 
