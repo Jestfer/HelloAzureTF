@@ -10,7 +10,7 @@ resource "azurerm_postgresql_server" "example" {
   auto_grow_enabled     = false
 
   administrator_login          = "safeadmin"
-  administrator_login_password = "safepassword"
+  administrator_login_password = "safepassword123!"
   version                      = "9.5"
   ssl_enforcement_enabled      = true
 }
