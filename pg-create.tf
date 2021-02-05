@@ -5,9 +5,9 @@ resource "azurerm_postgresql_server" "example" {
 
   sku_name = "B_Gen5_2"
 
-  storage_mb                   = 5120
-  backup_retention_days        = 7
-  auto_grow_enabled            = false
+  storage_mb            = 5120
+  backup_retention_days = 7
+  auto_grow_enabled     = false
 
   administrator_login          = "safeadmin"
   administrator_login_password = "safepassword"
